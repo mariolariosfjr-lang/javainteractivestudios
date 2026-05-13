@@ -1,0 +1,145 @@
+/* Background */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+/* Center Box */
+
+.box{
+    width:350px;
+    margin:auto;
+    margin-top:100px;
+    padding:30px;
+    border-radius:20px;
+    background:#1e293b;
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Title */
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#38bdf8;
+}
+
+/* Inputs */
+
+input{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border:none;
+    border-radius:10px;
+    background:#334155;
+    color:white;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+/* Buttons */
+
+button{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    border:none;
+    border-radius:10px;
+    background:#38bdf8;
+    color:black;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    transform:scale(1.03);
+    background:#0ea5e9;
+}
+
+/* Links */
+
+a{
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    color:#7dd3fc;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* Dashboard */
+
+.navbar{
+    background:#1e293b;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+.menu button{
+    width:auto;
+    padding:10px 20px;
+    margin-left:10px;
+}
+
+/* Editor */
+
+#editor{
+    width:100%;
+    height:90vh;
+}
+
+/* Cards */
+
+.card{
+    background:#1e293b;
+    margin:20px;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Terminal */
+
+.terminal{
+    background:black;
+    color:#00ff00;
+    padding:15px;
+    border-radius:10px;
+    font-family:monospace;
+    margin-top:20px;
+    height:200px;
+    overflow:auto;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#38bdf8;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0f172a;
+}
